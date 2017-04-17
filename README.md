@@ -1,9 +1,11 @@
 # api documentation for  [stream-adventure (v4.0.5)](https://github.com/substack/stream-adventure)  [![npm package](https://img.shields.io/npm/v/npmdoc-stream-adventure.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-stream-adventure) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-stream-adventure.svg)](https://travis-ci.org/npmdoc/node-npmdoc-stream-adventure)
 #### an educational stream adventure
 
-[![NPM](https://nodei.co/npm/stream-adventure.png?downloads=true)](https://www.npmjs.com/package/stream-adventure)
+[![NPM](https://nodei.co/npm/stream-adventure.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/stream-adventure)
 
-[![apidoc](https://npmdoc.github.io/node-npmdoc-stream-adventure/build/screenCapture.buildNpmdoc.browser._2Fhome_2Ftravis_2Fbuild_2Fnpmdoc_2Fnode-npmdoc-stream-adventure_2Ftmp_2Fbuild_2Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-stream-adventure/build/apidoc.html)
+- [https://npmdoc.github.io/node-npmdoc-stream-adventure/build/apidoc.html](https://npmdoc.github.io/node-npmdoc-stream-adventure/build/apidoc.html)
+
+[![apidoc](https://npmdoc.github.io/node-npmdoc-stream-adventure/build/screenCapture.buildCi.browser.%252Ftmp%252Fbuild%252Fapidoc.html.png)](https://npmdoc.github.io/node-npmdoc-stream-adventure/build/apidoc.html)
 
 ![npmPackageListing](https://npmdoc.github.io/node-npmdoc-stream-adventure/build/screenCapture.npmPackageListing.svg)
 
@@ -18,7 +20,6 @@
 {
     "author": {
         "name": "James Halliday",
-        "email": "mail@substack.net",
         "url": "http://substack.net"
     },
     "bin": {
@@ -73,25 +74,20 @@
     "license": "MIT",
     "maintainers": [
         {
-            "name": "substack",
-            "email": "substack@gmail.com"
+            "name": "substack"
         },
         {
-            "name": "cwmma",
-            "email": "calvin.metcalf@gmail.com"
+            "name": "cwmma"
         },
         {
-            "name": "maxogden",
-            "email": "max@maxogden.com"
+            "name": "maxogden"
         },
         {
-            "name": "julianduque",
-            "email": "julianduquej@gmail.com"
+            "name": "julianduque"
         }
     ],
     "name": "stream-adventure",
     "optionalDependencies": {},
-    "readme": "ERROR: No README data found!",
     "repository": {
         "type": "git",
         "url": "git://github.com/substack/stream-adventure.git"
@@ -102,16 +98,6 @@
     "version": "4.0.5"
 }
 ```
-
-
-
-# <a name="apidoc.tableOfContents"></a>[table of contents](#apidoc.tableOfContents)
-
-#### [module stream-adventure](#apidoc.module.stream-adventure)
-
-
-
-# <a name="apidoc.module.stream-adventure"></a>[module stream-adventure](#apidoc.module.stream-adventure)
 
 
 
