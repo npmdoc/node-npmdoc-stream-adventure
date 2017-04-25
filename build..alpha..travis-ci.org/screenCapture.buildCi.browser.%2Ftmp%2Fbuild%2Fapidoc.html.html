@@ -54,12 +54,111 @@
 
     <li class="apidocModuleLi"><a href="#apidoc.module.stream-adventure">module stream-adventure</a><ol>
 
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">stream-adventure.</span>index</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.stream-adventure.index">module stream-adventure.index</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.stream-adventure.index.run">
+            function <span class="apidocSignatureSpan">stream-adventure.index.</span>run
+            <span class="apidocSignatureSpan">(args)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.stream-adventure.index.verify">
+            function <span class="apidocSignatureSpan">stream-adventure.index.</span>verify
+            <span class="apidocSignatureSpan">(args, cb)</span>
+            </a>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">stream-adventure.index.</span>problem</span>
+
+        </li>
+
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan">stream-adventure.index.</span>solution</span>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
 
 <div class="apidocSectionDiv">
 <h1><a href="#apidoc.module.stream-adventure" id="apidoc.module.stream-adventure">module stream-adventure</a></h1>
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.stream-adventure.index" id="apidoc.module.stream-adventure.index">module stream-adventure.index</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.stream-adventure.index.run" id="apidoc.element.stream-adventure.index.run">
+        function <span class="apidocSignatureSpan">stream-adventure.index.</span>run
+        <span class="apidocSignatureSpan">(args)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">run = function (args) {
+    var ps = spawn(process.execPath, args);
+    ps.stderr.pipe(process.stderr);
+    ps.stdout.pipe(process.stdout);
+    ps.once('exit', function (code) {
+        if (code) process.exit(code)
+    });
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+    <h2>
+        <a href="#apidoc.element.stream-adventure.index.verify" id="apidoc.element.stream-adventure.index.verify">
+        function <span class="apidocSignatureSpan">stream-adventure.index.</span>verify
+        <span class="apidocSignatureSpan">(args, cb)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">verify = function (args, cb) {
+    var test = tape.createHarness();
+    test(opts.name, function (t) { fn(args, t) });
+    var stream = test.createStream();
+    colors = colorize(opts);
+    var ended = false;
+    stream.once('end', function () {
+        if (reset) reset();
+        ended = true;
+    });
+    stream.pipe(parser(function (results) { cb(results.ok) }));
+    process.on('exit', function () {
+        if (!ended) stream.end();
+    });
+    return stream.pipe(colors);
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+
 
 </div>
 
