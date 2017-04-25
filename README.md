@@ -1,4 +1,7 @@
-# api documentation for  [stream-adventure (v4.0.5)](https://github.com/substack/stream-adventure)  [![npm package](https://img.shields.io/npm/v/npmdoc-stream-adventure.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-stream-adventure) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-stream-adventure.svg)](https://travis-ci.org/npmdoc/node-npmdoc-stream-adventure)
+# npmdoc-stream-adventure
+
+#### basic api documentation for  [stream-adventure (v4.0.5)](https://github.com/substack/stream-adventure)  [![npm package](https://img.shields.io/npm/v/npmdoc-stream-adventure.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-stream-adventure) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-stream-adventure.svg)](https://travis-ci.org/npmdoc/node-npmdoc-stream-adventure)
+
 #### an educational stream adventure
 
 [![NPM](https://nodei.co/npm/stream-adventure.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/stream-adventure)
